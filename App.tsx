@@ -1,4 +1,5 @@
-import AppContextProvider from './src/context/AppContextProvider';
+import React from 'react';
+import AppContextProvider from './src/context/AppContext';
 import { NavigationContainer } from '@react-navigation/native';
 import MainStack from './src/stacks/mainStack';
 

@@ -8,18 +8,28 @@ export const Container = styled.SafeAreaView`
 `;
 
 export const InputArea = styled.View`
-    width: 100%;
-    padding: 40px;
+  width: 100%;
+  padding: 10px;
+`;
+
+export const Input = styled.TextInput`
+  font-size: 16px;
+  color: #268596;
+  margin-left: 10px;
+  background: #fff
+  padding: 15px;
+  border-radius: 10px;
 `;
 
 export const CustomButton = styled.TouchableOpacity`
-    height: 50px;
-    background-color: #268596;
-    border-radius: 10px;
-    justify-content: center;
-    align-items: center;
+  height: 50px;
+  background-color: #268596;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
 `;
+
 export const CustomButtonText = styled.Text`
-    font-size: 18px;
-    color: #FFF;
+  font-size: 18px;
+  color: #FFF;
 `;
