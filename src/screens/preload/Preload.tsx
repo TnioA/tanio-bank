@@ -10,11 +10,13 @@ export default class Preload extends Component<any, any> {
   context!: React.ContextType<typeof AppContext>;
 
   componentDidMount() {
+    console.log("Welcome PreLoad");
     this.checkToken();
   }
 
   async checkToken() {
     const token = await AsyncStorage.getItem('token');
+    console.log("GetTokenInMemory: " + token);
     if (!token) {
       this.props.navigation.navigate('SignIn');
       return;
